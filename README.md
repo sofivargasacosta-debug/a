@@ -1,1 +1,133 @@
 # 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brillo y Seda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffafc;
+      color: #333;
+    }
+    header {
+      background-color: #f8b6c2;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #fcd5e3;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #d46a82;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .producto {
+      width: 30%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .producto img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #f8b6c2;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>✨ Brillo y Seda ✨</h1>
+    <p>Cuidado Facial y Capilar</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#mision">Misión</a>
+    <a href="#vision">Visión</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Brillo y Seda es una empresa dedicada al cuidado facial y capilar que se caracteriza por ofrecer productos confiables. Nuestra labor se basa en brindar bienestar y satisfacción a quienes confían en nosotras.</p>
+  </section>
+
+  <section id="mision">
+    <h2>Misión</h2>
+    <p>Ofrecemos un producto para nuestros clientes que gusten tener un cabello saludable, crecimiento abundante, hidratado, con servicio de calidad.</p>
+  </section>
+
+  <section id="vision">
+    <h2>Visión</h2>
+    <p>En un futuro contaremos con ser la marca líder ofreciendo nuestro producto de alta calidad que potencie la belleza natural de cada persona y servicio que brinden confianza y bienestar a nuestros clientes en todo el mundo.</p>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="URL-DE-TU-IMAGEN-1" alt="Durag de Seda">
+        <h3>Durag de Seda</h3>
+        <p>Ideal para definir ondas y proteger el cabello.</p>
+      </div>
+      <div class="producto">
+        <img src="URL-DE-TU-IMAGEN-2" alt="Kit Rosado de Seda">
+        <h3>Kit Rosado de Seda</h3>
+        <p>Incluye gorro, funda de almohada, scrunchies y cinta. Perfecto para cuidar el cabello mientras duermes.</p>
+      </div>
+      <div class="producto">
+        <img src="URL-DE-TU-IMAGEN-3" alt="Toalla de Microfibra Azul">
+        <h3>Toalla de Microfibra Azul</h3>
+        <p>Reduce el frizz, seca más rápido y evita el daño en el cabello.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p><strong>Ubicación:</strong> Calle 21 #21-75 La Pradera</p>
+    <p><strong>Teléfonos:</strong> 314 2389850 – 311 6173919</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Brillo y Seda - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
+
